@@ -15,5 +15,11 @@
         }
     },
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "repositories": [
+        {
+            "type": "path",
+            "url": "plivo/sms-voice"
+        }
+    ],
 }
