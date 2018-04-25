@@ -15,7 +15,10 @@
         }
     },
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": "^5.3.3 || ^7.0",
+        "another-vendor/package": "1.*"
+    },
     "repositories": [
         {
             "type": "path",
