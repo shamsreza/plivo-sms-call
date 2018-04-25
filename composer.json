@@ -1,0 +1,28 @@
+{
+    "name": "plivo/sms-voice",
+    "description": "To send messages and to call through plivo",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shams Reza",
+            "email": "shamsreza@globussoft.in"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Plivo\\Smsvoice\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^5.3.3 || ^7.0",
+        "another-vendor/package": "1.*"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "plivo/sms-voice"
+        }
+    ],
+}
